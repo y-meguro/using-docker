@@ -22,3 +22,4 @@
 - Dockerfile
   - `FROM python:3.8` に変更した
     - 3.4 が deprecated のため
+  - uWSGI のバージョンは 2.0.18 に変更した
