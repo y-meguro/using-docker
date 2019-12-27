@@ -23,3 +23,9 @@
   - `FROM python:3.8` に変更した
     - 3.4 が deprecated のため
   - uWSGI のバージョンは 2.0.18 に変更した
+- これだけ別レポジトリあり [y-meguro/identidock](https://github.com/y-meguro/identidock)
+
+### identijenk
+
+- Dockerfile
+  - `FROM jenkins:2.60.3` に変更した
