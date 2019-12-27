@@ -10,7 +10,15 @@
 
 ## 本と違うところ
 
+### cowsay
+
 - Dockerfile
   - `FROM debian/eol:wheezy` に変更した
     - [sources list in wheezy should be switched to archive · Issue #65 · debuerreotype/docker-debian-artifacts](https://github.com/debuerreotype/docker-debian-artifacts/issues/65)
   - `MAINTAINER` は deprecated になったので `LABEL` を使った
+
+### identidock
+
+- Dockerfile
+  - `FROM python:3.8` に変更した
+    - 3.4 が deprecated のため
